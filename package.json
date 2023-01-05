@@ -15,7 +15,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "reinstall": "rm -rf node_modules && rm -f package-lock.json && rm -f package-lock.lock && npm install --registry=https://registry.npmjs.org/"
   },
   "eslintConfig": {
     "extends": [
